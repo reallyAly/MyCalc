@@ -6,6 +6,14 @@ public abstract class Values {
     protected double firstNumber;
     protected double secondNumber;
 
+    public double getFirstNumber() {
+        return firstNumber;
+    }
+
+    public double getSecondNumber() {
+        return secondNumber;
+    }
+
     public void readValues() {
 
         Scanner ler  = new Scanner(System.in);
