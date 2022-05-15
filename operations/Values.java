@@ -14,15 +14,15 @@ public abstract class Values {
         return secondNumber;
     }
 
-    public void readValues() {
-
+    public void readFirstValue() {
         Scanner ler  = new Scanner(System.in);
-
         System.out.println("Insert the first number");
         this.firstNumber = ler.nextDouble();
+    }
 
+    public void readSecondValue() {
+        Scanner ler  = new Scanner(System.in);
         System.out.println("Insert the second number");
         this.secondNumber = ler.nextDouble();
-
     }
 }
