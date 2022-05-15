@@ -1,10 +1,16 @@
 package operations;
 
-public abstract class Operation extends Values {
+import calculator.Result;
+
+public abstract class Operation extends Result  {
 
     protected String operationSymbol;
 
-    protected int operationNumber;
+    protected String operationName;
+
+    protected double firstNumber;
+
+    protected double secondNumber;
 
     public String getOperationSymbol() {
         return operationSymbol;
@@ -14,12 +20,12 @@ public abstract class Operation extends Values {
         this.operationSymbol = operationSymbol;
     }
 
-    public int getOperationNumber() {
-        return operationNumber;
+    public String getOperationName() {
+        return operationName;
     }
 
-    public void setOperationNumber(int operationNumber) {
-        this.operationNumber = operationNumber;
+    public void setOperationNumber(String operationName) {
+        this.operationName = operationName;
     }
 
     public abstract void calc(double a, double b);
