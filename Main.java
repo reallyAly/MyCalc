@@ -1,10 +1,8 @@
-import operations.Operation;
 import operations.operation.Divide;
 import operations.operation.Multiply;
 import operations.operation.Subtract;
 import operations.operation.Sum;
 import operations.Operations;
-import java.util.Scanner;
 
 public class Main {
 

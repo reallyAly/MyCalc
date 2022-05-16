@@ -1,7 +1,5 @@
 package operations;
 
-import operations.Operation;
-
 import java.util.ArrayList;
 
 public class Operations {
