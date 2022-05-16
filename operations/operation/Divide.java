@@ -11,6 +11,11 @@ public class Divide extends Operation {
 
     @Override
     public void calc(double a, double b) {
+
+        if(b <= 0){
+            throw new ArithmeticException("Não é permitido dividir um número por zero");
+        }
+
         this.showResult(a / b);
     }
 }
