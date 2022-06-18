@@ -1,6 +1,8 @@
-import calculator.BaseCalculator;
-import operations.Operation;
-import operations.Operations;
+package br.edu.utfpr.aly;
+
+import br.edu.utfpr.aly.calculator.BaseCalculator;
+import br.edu.utfpr.aly.operations.Operation;
+import br.edu.utfpr.aly.operations.Operations;
 
 import java.util.Scanner;
 

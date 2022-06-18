@@ -1,8 +1,10 @@
-import operations.operation.Divide;
-import operations.operation.Multiply;
-import operations.operation.Subtract;
-import operations.operation.Sum;
-import operations.Operations;
+package br.edu.utfpr.aly;
+
+import br.edu.utfpr.aly.operations.operation.Divide;
+import br.edu.utfpr.aly.operations.operation.Multiply;
+import br.edu.utfpr.aly.operations.operation.Subtract;
+import br.edu.utfpr.aly.operations.operation.Sum;
+import br.edu.utfpr.aly.operations.Operations;
 
 public class Main {
 
