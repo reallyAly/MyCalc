@@ -1,4 +1,4 @@
-package operations;
+package br.edu.utfpr.aly.operations;
 
 import calculator.Result;
 

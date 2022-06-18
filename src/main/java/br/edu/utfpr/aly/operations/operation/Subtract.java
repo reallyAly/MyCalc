@@ -1,6 +1,6 @@
-package operations.operation;
+package br.edu.utfpr.aly.operations.operation;
 
-import operations.Operation;
+import br.edu.utfpr.aly.operations.Operation;
 
 public class Subtract extends Operation {
 
