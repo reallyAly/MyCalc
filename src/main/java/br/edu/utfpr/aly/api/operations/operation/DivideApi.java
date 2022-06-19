@@ -10,7 +10,12 @@ public class DivideApi extends OperationApi {
     }
 
     @Override
-    public void calc(double a, double b) {
+    public void calc(double a, double b) throws ArithmeticException {
+
+        if(b <= 0){
+            throw new ArithmeticException("Não é permitido dividir um número por zero");
+        }
+
         this.result = a / b;
     }
 }

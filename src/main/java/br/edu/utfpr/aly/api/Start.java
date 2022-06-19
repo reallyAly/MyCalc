@@ -46,12 +46,19 @@ public class Start {
             ArrayList<Integer> numbers = data.getNumbers();
 
             calc.setOperator(data.getOperator());
-            calc.calculate(
-                    Double.parseDouble(String.valueOf(numbers.get(0))),
-                    Double.parseDouble(String.valueOf(numbers.get(1)))
-            );
 
-            ctx.result("O resultado é: "+String.valueOf(calc.getResult()));
+            try{
+                calc.calculate(
+                        Double.parseDouble(String.valueOf(numbers.get(0))),
+                        Double.parseDouble(String.valueOf(numbers.get(1)))
+                );
+
+                ctx.status(200);
+                ctx.result("O resultado é: "+String.valueOf(calc.getResult()));
+            }catch(ArithmeticException e) {
+                ctx.status(406);
+                ctx.result("Não é possível dividir um número por zero");
+            }
         });
     }
 }
