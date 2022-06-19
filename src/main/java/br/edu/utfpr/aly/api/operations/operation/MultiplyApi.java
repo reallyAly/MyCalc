@@ -1,8 +1,14 @@
 package br.edu.utfpr.aly.api.operations.operation;
 
 import br.edu.utfpr.aly.api.operations.OperationApi;
+import br.edu.utfpr.aly.operations.operation.Multiply;
 
 public class MultiplyApi extends OperationApi {
+
+    public MultiplyApi() {
+        this.operationName = "MULTIPLICAR";
+        this.operationSymbol = "x";
+    }
 
     @Override
     public void calc(double a, double b) {
