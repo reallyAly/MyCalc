@@ -1,7 +1,6 @@
 package br.edu.utfpr.aly.api.operations.operation;
 
 import br.edu.utfpr.aly.api.operations.OperationApi;
-import br.edu.utfpr.aly.operations.operation.Multiply;
 
 public class MultiplyApi extends OperationApi {
 

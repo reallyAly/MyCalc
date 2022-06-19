@@ -1,6 +1,6 @@
-package br.edu.utfpr.aly.operations;
+package br.edu.utfpr.aly.app.operations;
 
-import br.edu.utfpr.aly.calculator.Result;
+import br.edu.utfpr.aly.app.calculator.Result;
 
 public abstract class Operation extends Result  {
 

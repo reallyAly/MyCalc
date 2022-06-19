@@ -1,10 +1,10 @@
-package br.edu.utfpr.aly;
+package br.edu.utfpr.aly.app;
 
-import br.edu.utfpr.aly.operations.operation.Divide;
-import br.edu.utfpr.aly.operations.operation.Multiply;
-import br.edu.utfpr.aly.operations.operation.Subtract;
-import br.edu.utfpr.aly.operations.operation.Sum;
-import br.edu.utfpr.aly.operations.Operations;
+import br.edu.utfpr.aly.app.operations.operation.Divide;
+import br.edu.utfpr.aly.app.operations.operation.Multiply;
+import br.edu.utfpr.aly.app.operations.operation.Subtract;
+import br.edu.utfpr.aly.app.operations.operation.Sum;
+import br.edu.utfpr.aly.app.operations.Operations;
 
 public class Main {
 

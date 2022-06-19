@@ -1,9 +1,9 @@
 package br.edu.utfpr.aly.api;
 
 import br.edu.utfpr.aly.api.utils.Data;
-import br.edu.utfpr.aly.operations.Operation;
+import br.edu.utfpr.aly.app.operations.Operation;
 import io.javalin.Javalin;
-import br.edu.utfpr.aly.operations.Operations;
+import br.edu.utfpr.aly.app.operations.Operations;
 import br.edu.utfpr.aly.api.operations.operation.*;
 import br.edu.utfpr.aly.api.utils.ConvertJson;
 import java.util.ArrayList;
@@ -59,6 +59,8 @@ public class Start {
                 ctx.status(406);
                 ctx.result("Não é possível dividir um número por zero");
             }
+
+
         });
     }
 }

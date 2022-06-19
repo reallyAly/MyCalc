@@ -1,7 +1,7 @@
-package br.edu.utfpr.aly.calculator;
+package br.edu.utfpr.aly.app.calculator;
 
-import br.edu.utfpr.aly.operations.Operation;
-import br.edu.utfpr.aly.operations.Operations;
+import br.edu.utfpr.aly.app.operations.Operation;
+import br.edu.utfpr.aly.app.operations.Operations;
 import java.util.ArrayList;
 
 abstract public class BaseCalculator {

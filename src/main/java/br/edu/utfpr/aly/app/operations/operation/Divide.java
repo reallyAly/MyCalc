@@ -1,6 +1,6 @@
-package br.edu.utfpr.aly.operations.operation;
+package br.edu.utfpr.aly.app.operations.operation;
 
-import br.edu.utfpr.aly.operations.Operation;
+import br.edu.utfpr.aly.app.operations.Operation;
 
 public class Divide extends Operation {
 

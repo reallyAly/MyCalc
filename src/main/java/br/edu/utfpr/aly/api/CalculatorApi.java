@@ -1,8 +1,8 @@
 package br.edu.utfpr.aly.api;
 
-import br.edu.utfpr.aly.calculator.BaseCalculator;
-import br.edu.utfpr.aly.operations.Operation;
-import br.edu.utfpr.aly.operations.Operations;
+import br.edu.utfpr.aly.app.calculator.BaseCalculator;
+import br.edu.utfpr.aly.app.operations.Operation;
+import br.edu.utfpr.aly.app.operations.Operations;
 import br.edu.utfpr.aly.api.operations.OperationApi;
 import java.util.ArrayList;
 

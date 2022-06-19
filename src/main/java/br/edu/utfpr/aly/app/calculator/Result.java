@@ -1,4 +1,4 @@
-package br.edu.utfpr.aly.calculator;
+package br.edu.utfpr.aly.app.calculator;
 
 public abstract class Result {
     public void showResult(double result) {
