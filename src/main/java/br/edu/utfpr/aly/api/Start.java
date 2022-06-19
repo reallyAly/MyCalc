@@ -1,13 +1,11 @@
 package br.edu.utfpr.aly.api;
 
-import br.edu.utfpr.aly.Calculator;
+import br.edu.utfpr.aly.api.utils.Data;
 import br.edu.utfpr.aly.operations.Operation;
 import io.javalin.Javalin;
 import br.edu.utfpr.aly.operations.Operations;
-import br.edu.utfpr.aly.operations.operation.*;
+import br.edu.utfpr.aly.api.operations.operation.*;
 import br.edu.utfpr.aly.api.utils.ConvertJson;
-import br.edu.utfpr.aly.api.Data;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -18,12 +16,12 @@ public class Start {
 
         Operations operations = new Operations();
 
-        operations.addOperation(new Sum());
-        operations.addOperation(new Subtract());
-        operations.addOperation(new Multiply());
-        operations.addOperation(new Divide());
+        operations.addOperation(new SumApi());
+        operations.addOperation(new SubtractApi());
+        operations.addOperation(new MultiplyApi());
+        operations.addOperation(new DivideApi());
 
-        Calculator calc = new Calculator(operations);
+        CalculatorApi calc = new CalculatorApi(operations);
 
         Javalin app = Javalin.create().start(7070);
 
@@ -52,6 +50,8 @@ public class Start {
                     Double.parseDouble(String.valueOf(numbers.get(0))),
                     Double.parseDouble(String.valueOf(numbers.get(1)))
             );
+
+            ctx.result("O resultado é: "+String.valueOf(calc.getResult()));
         });
     }
 }
