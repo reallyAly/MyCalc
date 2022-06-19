@@ -1,4 +1,4 @@
-package br.edu.utfpr.aly.api;
+package br.edu.utfpr.aly.api.utils;
 
 import java.util.ArrayList;
 
