@@ -2,9 +2,9 @@ package br.edu.utfpr.aly.api.operations.operation;
 
 import br.edu.utfpr.aly.api.operations.OperationApi;
 
-public class ApiSum extends OperationApi{
+public class SumApi extends OperationApi{
 
-    public ApiSum() {
+    public SumApi() {
         this.operationName= "SOMA";
         this.operationSymbol = "+";
     }
