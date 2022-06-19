@@ -1,6 +1,5 @@
 package br.edu.utfpr.aly.api.utils;
 
-import br.edu.utfpr.aly.api.Data;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
